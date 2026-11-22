@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про нас — Смаколик Калуш</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" data-i18n="brand_name">Смаколик</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" class="active" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button data-lang="uk" class="lang-btn active">UA</button>
+                    <button data-lang="ru" class="lang-btn">RU</button>
+                    <button data-lang="en" class="lang-btn">EN</button>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="about_page_title">Про кондитерську «Смаколик»</h1>
+                <p data-i18n="about_page_subtitle">Затишне місце для всієї родини у Калуші</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="about-content-grid">
+                    <div class="about-text">
+                        <p data-i18n="about_p1">Сімейна кондитерська «Смаколик» у місті Калуш — це затишне місце для всієї родини, де завжди панує приємна атмосфера та пахне свіжою випічкою. Заклад пропонує гостям широкий асортимент смачних десертів, тістечок, капкейків та запашної кави.</p>
+                        <p data-i18n="about_p2">Тут ви можете насолодитися улюбленими ласощами за чашкою гарячого напою або замовити ексклюзивні торти та кенді-бари до будь-якого святкового чи сімейного свята. Професійні кондитери готують з любов'ю та турботою про кожного відвідувача.</p>
+                        <p data-i18n="about_p3">Завдяки зручному розташуванню на площі Героїв, «Смаколик» став улюбленим місцем зустрічей мешканців та гостей міста. Доброзичливий персонал завжди радий зустріти нових гостей і подарувати гарний настрій на весь день.</p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="feature-box">
+                            <h3 data-i18n="feat1_title">Свіжі інгредієнти</h3>
+                            <p data-i18n="feat1_desc">Використовуємо якісні продукти для найкращого смаку наших десертів.</p>
+                        </div>
+                        <div class="feature-box">
+                            <h3 data-i18n="feat2_title">Індивідуальні замовлення</h3>
+                            <p data-i18n="feat2_desc">Створюємо торти та кенді-бари для ваших особливих подій.</p>
+                        </div>
+                        <div class="feature-box">
+                            <h3 data-i18n="feat3_title">Затишна атмосфера</h3>
+                            <p data-i18n="feat3_desc">Ідеальне місце для сімейного відпочинку та дружніх зустрічей.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div>
+                <h3 data-i18n="brand_name">Смаколик</h3>
+                <p data-i18n="footer_desc">Сімейна кондитерська у Калуші</p>
+            </div>
+            <div>
+                <h4 data-i18n="footer_contacts">Контакти</h4>
+                <p>площа Героїв, 21, Калуш</p>
+                <p><a href="tel:+380968285059">+380968285059</a></p>
+            </div>
+            <div>
+                <h4 data-i18n="footer_hours">Графік</h4>
+                <p>Пн-Нд: 10:00 – 22:00</p>
+            </div>
+        </div>
+        <div class="container copyright">
+            <p>&copy; 2024 Смаколик. <span data-i18n="rights">Всі права захищені.</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
